@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#32c2d6"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/cancel"
+        android:layout_width="65dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"
+        android:onClick="cancelButton"
+        android:scaleType="centerInside"
+        android:src="@drawable/canceldrawing" >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="65dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:onClick="nextButton"
+        android:scaleType="centerInside"
+        android:src="@drawable/donedrawing" >
+    </ImageButton>
+
+</RelativeLayout>
